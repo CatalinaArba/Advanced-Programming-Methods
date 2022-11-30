@@ -1,0 +1,163 @@
+
+[EXE STACK
+[(string varf;(varf="test.in";(openRFile(varf);(int varc;(readFile(varf);(print(varc);(readFile(varf);(print(varc);closeRFile(varf)))))))))]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(varf="test.in";(openRFile(varf);(int varc;(readFile(varf);(print(varc);(readFile(varf);(print(varc);closeRFile(varf)))))))), string varf]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(varf="test.in";(openRFile(varf);(int varc;(readFile(varf);(print(varc);(readFile(varf);(print(varc);closeRFile(varf))))))))]
+SYMBOL TABLE
+{varf=""}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(openRFile(varf);(int varc;(readFile(varf);(print(varc);(readFile(varf);(print(varc);closeRFile(varf))))))), varf="test.in"]
+SYMBOL TABLE
+{varf=""}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(openRFile(varf);(int varc;(readFile(varf);(print(varc);(readFile(varf);(print(varc);closeRFile(varf)))))))]
+SYMBOL TABLE
+{varf="test.in"}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(int varc;(readFile(varf);(print(varc);(readFile(varf);(print(varc);closeRFile(varf)))))), openRFile(varf)]
+SYMBOL TABLE
+{varf="test.in"}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(int varc;(readFile(varf);(print(varc);(readFile(varf);(print(varc);closeRFile(varf))))))]
+SYMBOL TABLE
+{varf="test.in"}
+OUT
+[]
+FILE TABLE
+{test.in=java.io.BufferedReader@3eb07fd3}
+]
+[EXE STACK
+[(readFile(varf);(print(varc);(readFile(varf);(print(varc);closeRFile(varf))))), int varc]
+SYMBOL TABLE
+{varf="test.in"}
+OUT
+[]
+FILE TABLE
+{test.in=java.io.BufferedReader@3eb07fd3}
+]
+[EXE STACK
+[(readFile(varf);(print(varc);(readFile(varf);(print(varc);closeRFile(varf)))))]
+SYMBOL TABLE
+{varf="test.in", varc=0}
+OUT
+[]
+FILE TABLE
+{test.in=java.io.BufferedReader@3eb07fd3}
+]
+[EXE STACK
+[(print(varc);(readFile(varf);(print(varc);closeRFile(varf)))), readFile(varf)]
+SYMBOL TABLE
+{varf="test.in", varc=0}
+OUT
+[]
+FILE TABLE
+{test.in=java.io.BufferedReader@3eb07fd3}
+]
+[EXE STACK
+[(print(varc);(readFile(varf);(print(varc);closeRFile(varf))))]
+SYMBOL TABLE
+{varf="test.in", varc=15}
+OUT
+[]
+FILE TABLE
+{test.in=java.io.BufferedReader@3eb07fd3}
+]
+[EXE STACK
+[(readFile(varf);(print(varc);closeRFile(varf))), print(varc)]
+SYMBOL TABLE
+{varf="test.in", varc=15}
+OUT
+[]
+FILE TABLE
+{test.in=java.io.BufferedReader@3eb07fd3}
+]
+[EXE STACK
+[(readFile(varf);(print(varc);closeRFile(varf)))]
+SYMBOL TABLE
+{varf="test.in", varc=15}
+OUT
+[15]
+FILE TABLE
+{test.in=java.io.BufferedReader@3eb07fd3}
+]
+[EXE STACK
+[(print(varc);closeRFile(varf)), readFile(varf)]
+SYMBOL TABLE
+{varf="test.in", varc=15}
+OUT
+[15]
+FILE TABLE
+{test.in=java.io.BufferedReader@3eb07fd3}
+]
+[EXE STACK
+[(print(varc);closeRFile(varf))]
+SYMBOL TABLE
+{varf="test.in", varc=20}
+OUT
+[15]
+FILE TABLE
+{test.in=java.io.BufferedReader@3eb07fd3}
+]
+[EXE STACK
+[closeRFile(varf), print(varc)]
+SYMBOL TABLE
+{varf="test.in", varc=20}
+OUT
+[15]
+FILE TABLE
+{test.in=java.io.BufferedReader@3eb07fd3}
+]
+[EXE STACK
+[closeRFile(varf)]
+SYMBOL TABLE
+{varf="test.in", varc=20}
+OUT
+[15, 20]
+FILE TABLE
+{test.in=java.io.BufferedReader@3eb07fd3}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{varf="test.in", varc=20}
+OUT
+[15, 20]
+FILE TABLE
+{}
+]
