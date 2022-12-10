@@ -1,0 +1,207 @@
+[EXE STACK
+[(Ref(int) v;(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(print(v);print(a))))))]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(print(v);print(a))))), Ref(int) v]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(print(v);print(a))))), Ref(int) v]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(print(v);print(a)))))]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(print(v);print(a)))))]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(Ref(Ref(int)) a;(New(a, v);(print(v);print(a)))), New(v, 20)]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(Ref(Ref(int)) a;(New(a, v);(print(v);print(a)))), New(v, 20)]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(Ref(Ref(int)) a;(New(a, v);(print(v);print(a))))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(Ref(Ref(int)) a;(New(a, v);(print(v);print(a))))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(a, v);(print(v);print(a))), Ref(Ref(int)) a]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(a, v);(print(v);print(a))), Ref(Ref(int)) a]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(a, v);(print(v);print(a)))]
+SYMBOL TABLE
+{a=(0, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(a, v);(print(v);print(a)))]
+SYMBOL TABLE
+{a=(0, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(print(v);print(a)), New(a, v)]
+SYMBOL TABLE
+{a=(0, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(print(v);print(a)), New(a, v)]
+SYMBOL TABLE
+{a=(0, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(print(v);print(a))]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(print(v);print(a))]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(a), print(v)]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(a), print(v)]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(a)]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[(1, int)]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(a)]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[(1, int)]
+FILE TABLE
+{}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[(1, int), (2, Ref(int))]
+FILE TABLE
+{}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[(1, int), (2, Ref(int))]
+FILE TABLE
+{}
+]

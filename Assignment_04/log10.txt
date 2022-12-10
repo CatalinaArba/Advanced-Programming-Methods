@@ -1,0 +1,471 @@
+[EXE STACK
+[(Ref(int) v;(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))))))]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))))), Ref(int) v]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))))), Ref(int) v]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a)))))))]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a)))))))]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a)))))), New(v, 20)]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a)))))), New(v, 20)]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))), Ref(Ref(int)) a]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))), Ref(Ref(int)) a]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a)))))]
+SYMBOL TABLE
+{a=(0, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a)))))]
+SYMBOL TABLE
+{a=(0, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 30);print(ReadHeap(ReadHeap(a)))), New(a, v)]
+SYMBOL TABLE
+{a=(0, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 30);print(ReadHeap(ReadHeap(a)))), New(a, v)]
+SYMBOL TABLE
+{a=(0, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 30);print(ReadHeap(ReadHeap(a))))]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 30);print(ReadHeap(ReadHeap(a))))]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(ReadHeap(ReadHeap(a))), New(v, 30)]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(ReadHeap(ReadHeap(a))), New(v, 30)]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(ReadHeap(ReadHeap(a)))]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(3, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(ReadHeap(ReadHeap(a)))]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(3, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(3, int)}
+OUT
+[20]
+FILE TABLE
+{}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(3, int)}
+OUT
+[20]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(Ref(int) v;(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))))))]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))))), Ref(int) v]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))))), Ref(int) v]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a)))))))]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(New(v, 20);(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a)))))))]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a)))))), New(v, 20)]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a)))))), New(v, 20)]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[(Ref(Ref(int)) a;(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))), Ref(Ref(int)) a]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a))))), Ref(Ref(int)) a]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a)))))]
+SYMBOL TABLE
+{a=(0, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[(New(a, v);(New(v, 30);print(ReadHeap(ReadHeap(a)))))]
+SYMBOL TABLE
+{a=(0, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[(New(v, 30);print(ReadHeap(ReadHeap(a)))), New(a, v)]
+SYMBOL TABLE
+{a=(0, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[(New(v, 30);print(ReadHeap(ReadHeap(a)))), New(a, v)]
+SYMBOL TABLE
+{a=(0, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[(New(v, 30);print(ReadHeap(ReadHeap(a))))]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20, 2=(1, int)}
+]
+[EXE STACK
+[(New(v, 30);print(ReadHeap(ReadHeap(a))))]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20, 2=(1, int)}
+]
+[EXE STACK
+[print(ReadHeap(ReadHeap(a))), New(v, 30)]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20, 2=(1, int)}
+]
+[EXE STACK
+[print(ReadHeap(ReadHeap(a))), New(v, 30)]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20, 2=(1, int)}
+]
+[EXE STACK
+[print(ReadHeap(ReadHeap(a)))]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(3, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20, 2=(1, int), 3=30}
+]
+[EXE STACK
+[print(ReadHeap(ReadHeap(a)))]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(3, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20, 2=(1, int), 3=30}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(3, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP 
+{1=20, 2=(1, int), 3=30}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(3, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP 
+{1=20, 2=(1, int), 3=30}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{a=(2, Ref(int)), v=(3, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP 
+{1=20, 2=(1, int), 3=30}
+]

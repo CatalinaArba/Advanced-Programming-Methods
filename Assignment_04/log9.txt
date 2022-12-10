@@ -1,0 +1,380 @@
+[EXE STACK
+[(Ref(int) v;(New(v, 20);(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5)))))]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 20);(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5)))), Ref(int) v]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 20);(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5)))), Ref(int) v]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 20);(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5))))]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(New(v, 20);(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5))))]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5))), New(v, 20)]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5))), New(v, 20)]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5)))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5)))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(WriteHeap(v, 30);print(ReadHeap(v) + 5)), print(ReadHeap(v))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(WriteHeap(v, 30);print(ReadHeap(v) + 5)), print(ReadHeap(v))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(WriteHeap(v, 30);print(ReadHeap(v) + 5))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(WriteHeap(v, 30);print(ReadHeap(v) + 5))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(ReadHeap(v) + 5), WriteHeap(v, 30)]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(ReadHeap(v) + 5), WriteHeap(v, 30)]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(ReadHeap(v) + 5)]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(ReadHeap(v) + 5)]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20, 35]
+FILE TABLE
+{}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20, 35]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(Ref(int) v;(New(v, 20);(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5)))))]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(New(v, 20);(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5)))), Ref(int) v]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(New(v, 20);(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5)))), Ref(int) v]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(New(v, 20);(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5))))]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(New(v, 20);(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5))))]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5))), New(v, 20)]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5))), New(v, 20)]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{}
+]
+[EXE STACK
+[(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5)))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[(print(ReadHeap(v));(WriteHeap(v, 30);print(ReadHeap(v) + 5)))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[(WriteHeap(v, 30);print(ReadHeap(v) + 5)), print(ReadHeap(v))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[(WriteHeap(v, 30);print(ReadHeap(v) + 5)), print(ReadHeap(v))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[(WriteHeap(v, 30);print(ReadHeap(v) + 5))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[(WriteHeap(v, 30);print(ReadHeap(v) + 5))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[print(ReadHeap(v) + 5), WriteHeap(v, 30)]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[print(ReadHeap(v) + 5), WriteHeap(v, 30)]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP 
+{1=20}
+]
+[EXE STACK
+[print(ReadHeap(v) + 5)]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP 
+{1=30}
+]
+[EXE STACK
+[print(ReadHeap(v) + 5)]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP 
+{1=30}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20, 35]
+FILE TABLE
+{}
+HEAP 
+{1=30}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20, 35]
+FILE TABLE
+{}
+HEAP 
+{1=30}
+]

@@ -1,0 +1,10 @@
+package Domain.Expression;
+import Domain.ADT.MyIHeap;
+import Domain.Value.*;
+import Domain.ADT.MyIDictionary;
+import Exceptions.ADTException;
+import Exceptions.ExpressionEvaluationException;
+
+public interface Exp {
+    Value eval(MyIDictionary<String,Value> tbl, MyIHeap heap) throws ADTException, ExpressionEvaluationException;
+}

@@ -1,0 +1,189 @@
+[EXE STACK
+[(int a;(int b;(a=5;(b=7;(IF(a > b) THEN(print(a))ELSE(print(b)))))))]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(int b;(a=5;(b=7;(IF(a > b) THEN(print(a))ELSE(print(b)))))), int a]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(int b;(a=5;(b=7;(IF(a > b) THEN(print(a))ELSE(print(b)))))), int a]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(int b;(a=5;(b=7;(IF(a > b) THEN(print(a))ELSE(print(b))))))]
+SYMBOL TABLE
+{a=0}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(int b;(a=5;(b=7;(IF(a > b) THEN(print(a))ELSE(print(b))))))]
+SYMBOL TABLE
+{a=0}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(a=5;(b=7;(IF(a > b) THEN(print(a))ELSE(print(b))))), int b]
+SYMBOL TABLE
+{a=0}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(a=5;(b=7;(IF(a > b) THEN(print(a))ELSE(print(b))))), int b]
+SYMBOL TABLE
+{a=0}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(a=5;(b=7;(IF(a > b) THEN(print(a))ELSE(print(b)))))]
+SYMBOL TABLE
+{a=0, b=0}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(a=5;(b=7;(IF(a > b) THEN(print(a))ELSE(print(b)))))]
+SYMBOL TABLE
+{a=0, b=0}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(b=7;(IF(a > b) THEN(print(a))ELSE(print(b)))), a=5]
+SYMBOL TABLE
+{a=0, b=0}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(b=7;(IF(a > b) THEN(print(a))ELSE(print(b)))), a=5]
+SYMBOL TABLE
+{a=0, b=0}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(b=7;(IF(a > b) THEN(print(a))ELSE(print(b))))]
+SYMBOL TABLE
+{a=5, b=0}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(b=7;(IF(a > b) THEN(print(a))ELSE(print(b))))]
+SYMBOL TABLE
+{a=5, b=0}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(IF(a > b) THEN(print(a))ELSE(print(b))), b=7]
+SYMBOL TABLE
+{a=5, b=0}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(IF(a > b) THEN(print(a))ELSE(print(b))), b=7]
+SYMBOL TABLE
+{a=5, b=0}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(IF(a > b) THEN(print(a))ELSE(print(b)))]
+SYMBOL TABLE
+{a=5, b=7}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[(IF(a > b) THEN(print(a))ELSE(print(b)))]
+SYMBOL TABLE
+{a=5, b=7}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(b)]
+SYMBOL TABLE
+{a=5, b=7}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[print(b)]
+SYMBOL TABLE
+{a=5, b=7}
+OUT
+[]
+FILE TABLE
+{}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{a=5, b=7}
+OUT
+[7]
+FILE TABLE
+{}
+]
+[EXE STACK
+[]
+SYMBOL TABLE
+{a=5, b=7}
+OUT
+[7]
+FILE TABLE
+{}
+]
