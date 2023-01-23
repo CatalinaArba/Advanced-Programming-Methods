@@ -1,0 +1,361 @@
+Id: 1
+Execution stack: 
+(bool b;(int c;(b=true;(c=(b)? 100: 200;(print(c);(c=(false)? 100: 200;print(c)))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+bool b
+(int c;(b=true;(c=(b)? 100: 200;(print(c);(c=(false)? 100: 200;print(c))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+bool b
+(int c;(b=true;(c=(b)? 100: 200;(print(c);(c=(false)? 100: 200;print(c))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(int c;(b=true;(c=(b)? 100: 200;(print(c);(c=(false)? 100: 200;print(c))))))
+Symbol table: 
+b -> false
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(int c;(b=true;(c=(b)? 100: 200;(print(c);(c=(false)? 100: 200;print(c))))))
+Symbol table: 
+b -> false
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+int c
+(b=true;(c=(b)? 100: 200;(print(c);(c=(false)? 100: 200;print(c)))))
+Symbol table: 
+b -> false
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+int c
+(b=true;(c=(b)? 100: 200;(print(c);(c=(false)? 100: 200;print(c)))))
+Symbol table: 
+b -> false
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(b=true;(c=(b)? 100: 200;(print(c);(c=(false)? 100: 200;print(c)))))
+Symbol table: 
+b -> false
+c -> 0
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(b=true;(c=(b)? 100: 200;(print(c);(c=(false)? 100: 200;print(c)))))
+Symbol table: 
+b -> false
+c -> 0
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+b=true
+(c=(b)? 100: 200;(print(c);(c=(false)? 100: 200;print(c))))
+Symbol table: 
+b -> false
+c -> 0
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+b=true
+(c=(b)? 100: 200;(print(c);(c=(false)? 100: 200;print(c))))
+Symbol table: 
+b -> false
+c -> 0
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(c=(b)? 100: 200;(print(c);(c=(false)? 100: 200;print(c))))
+Symbol table: 
+b -> true
+c -> 0
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(c=(b)? 100: 200;(print(c);(c=(false)? 100: 200;print(c))))
+Symbol table: 
+b -> true
+c -> 0
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+c=(b)? 100: 200
+(print(c);(c=(false)? 100: 200;print(c)))
+Symbol table: 
+b -> true
+c -> 0
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+c=(b)? 100: 200
+(print(c);(c=(false)? 100: 200;print(c)))
+Symbol table: 
+b -> true
+c -> 0
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(IF(b) THEN(c=100)ELSE(c=200))
+(print(c);(c=(false)? 100: 200;print(c)))
+Symbol table: 
+b -> true
+c -> 0
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(IF(b) THEN(c=100)ELSE(c=200))
+(print(c);(c=(false)? 100: 200;print(c)))
+Symbol table: 
+b -> true
+c -> 0
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+c=100
+(print(c);(c=(false)? 100: 200;print(c)))
+Symbol table: 
+b -> true
+c -> 0
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+c=100
+(print(c);(c=(false)? 100: 200;print(c)))
+Symbol table: 
+b -> true
+c -> 0
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(print(c);(c=(false)? 100: 200;print(c)))
+Symbol table: 
+b -> true
+c -> 100
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(print(c);(c=(false)? 100: 200;print(c)))
+Symbol table: 
+b -> true
+c -> 100
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+print(c)
+(c=(false)? 100: 200;print(c))
+Symbol table: 
+b -> true
+c -> 100
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+print(c)
+(c=(false)? 100: 200;print(c))
+Symbol table: 
+b -> true
+c -> 100
+Output list: 
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(c=(false)? 100: 200;print(c))
+Symbol table: 
+b -> true
+c -> 100
+Output list: 
+100
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(c=(false)? 100: 200;print(c))
+Symbol table: 
+b -> true
+c -> 100
+Output list: 
+100
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+c=(false)? 100: 200
+print(c)
+Symbol table: 
+b -> true
+c -> 100
+Output list: 
+100
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+c=(false)? 100: 200
+print(c)
+Symbol table: 
+b -> true
+c -> 100
+Output list: 
+100
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(IF(false) THEN(c=100)ELSE(c=200))
+print(c)
+Symbol table: 
+b -> true
+c -> 100
+Output list: 
+100
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+(IF(false) THEN(c=100)ELSE(c=200))
+print(c)
+Symbol table: 
+b -> true
+c -> 100
+Output list: 
+100
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+c=200
+print(c)
+Symbol table: 
+b -> true
+c -> 100
+Output list: 
+100
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+c=200
+print(c)
+Symbol table: 
+b -> true
+c -> 100
+Output list: 
+100
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+print(c)
+Symbol table: 
+b -> true
+c -> 200
+Output list: 
+100
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+print(c)
+Symbol table: 
+b -> true
+c -> 200
+Output list: 
+100
+File table:
+Heap memory:
+
+Id: 1
+Execution stack: 
+Symbol table: 
+b -> true
+c -> 200
+Output list: 
+100
+200
+File table:
+Heap memory:
+

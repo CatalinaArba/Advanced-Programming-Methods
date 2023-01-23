@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="486.0" prefWidth="525.0" style="-fx-background-color: #FFE4E1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ProgramExecutorController">
+   <center>
+      <VBox style="-fx-background-color: #FFE4E1;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox spacing="10.0" style="-fx-background-color: #FFE4E1;">
+               <children>
+                  <VBox alignment="CENTER" style="-fx-background-color: #D8BFD8;">
+                     <children>
+                        <Label contentDisplay="CENTER" text="Heap Table">
+                           <font>
+                              <Font name="Dubai Light" size="12.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="heapTableView" style="-fx-background-color: #FFFAFA;">
+                          <columns>
+                            <TableColumn fx:id="addressColumn" maxWidth="156.0000123977661" minWidth="82.6666841506958" prefWidth="-1.0" text="Address" />
+                            <TableColumn fx:id="valueColumn" maxWidth="162.6666692097982" minWidth="56.00006103515625" prefWidth="117.33338165283203" text="Value" />
+                          </columns>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </TableView>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" style="-fx-background-color: #D8BFD8;">
+                     <children>
+                        <Label text="Output">
+                           <font>
+                              <Font name="Dubai Light" size="12.0" />
+                           </font>
+                        </Label>
+                        <ListView fx:id="outputListView" style="-fx-background-color: #FFFAFA;" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox spacing="10.0">
+               <children>
+                  <VBox alignment="CENTER" style="-fx-background-color: #D8BFD8;">
+                     <children>
+                        <Label text="File Table">
+                           <font>
+                              <Font name="Dubai Light" size="12.0" />
+                           </font>
+                        </Label>
+                        <ListView fx:id="fileTableListView" style="-fx-background-color: #FFFAFA;" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" style="-fx-background-color: #D8BFD8;">
+                     <children>
+                        <Label text="ProgramState ID's">
+                           <font>
+                              <Font name="Dubai Light" size="12.0" />
+                           </font>
+                        </Label>
+                        <ListView fx:id="programStateIdentifiersListView" onMouseClicked="#changePrgState" style="-fx-background-color: #FFFAFA;" />
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </HBox>
+            <HBox spacing="10.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" style="-fx-background-color: #D8BFD8;">
+                     <children>
+                        <Label text="Symbol Table">
+                           <font>
+                              <Font name="Dubai Light" size="12.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="symbolTableView" style="-fx-background-color: #FFFAFA;">
+                          <columns>
+                            <TableColumn fx:id="variableNameColumn" prefWidth="115.33334827423096" text="Variable name" />
+                            <TableColumn fx:id="variableValueColumn" maxWidth="170.6666692097982" minWidth="100.0" prefWidth="131.3332977294922" text="Value" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" style="-fx-background-color: #D8BFD8;">
+                     <children>
+                        <Label text="Execution Stack">
+                           <font>
+                              <Font name="Dubai Light" size="12.0" />
+                           </font>
+                        </Label>
+                        <ListView fx:id="executionStackListView" style="-fx-background-color: #FFFAFA;" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </HBox>
+         </children>
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+   <top>
+      <HBox spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Program state number:">
+               <font>
+                  <Font name="Dubai Light" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="numberOfProgramStatesTextField" />
+         </children>
+      </HBox>
+   </top>
+   <bottom>
+      <HBox>
+         <children>
+            <Region prefHeight="31.0" prefWidth="355.0" HBox.hgrow="ALWAYS" />
+            <Button fx:id="runOneStepButton" mnemonicParsing="false" onMouseClicked="#runOneStep" prefHeight="31.0" prefWidth="217.0" style="-fx-background-color: #D8BFD8;" text="Run" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+   </bottom>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+   </padding>
+</BorderPane>
